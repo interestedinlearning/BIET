@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Innovations</title>
+	<link rel="shortcut icon" href="img/BIETLogo.ico">
+</head>
+<!--Initializing css folders-->
+<link rel="stylesheet" type="text/css" href="static/css/materialize.min.css">
+
+<!--Initialising javascript folders-->
+<script type="text/javascript" src="static/js/jquery-2.1.1.min.js"></script>
+<script src="static/js/materialize.min.js"></script>
+<script src="static/js/extra.js"></script>
+
+<!--Initialising icon font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!--Styling header tags-->
+<style>
+h1{
+	font-family:Verdana;
+	text-indent:50px;
+}
+p.indent{
+
+	text-indent:200px;
+}
+h2{
+	font-family:GillSans;
+}
+p.font{
+	font-family:GillSans;
+	font-size: 20px;
+}
+p.font1{
+	font-family:GillSans;
+	text-indent: 400px;
+	font-size: 20px;
+}
+</style>
+<!--Initialization ends-->
+<!--Initialising modal-->
+	<script>
+	$(document).ready(function(){
+		$('.modal').modal();
+	  });
+	</script>
+
+<!--Initialising modal-->
+	<script>
+	  $(document).ready(function(){
+	  $('.slider').slider({full_width: false, height: 500});
+	});
+	</script>
+
+<!--Initialising Sidebar-->
+	<script>
+		 $('.button-collapse').sideNav({
+      menuWidth: 900, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true, // Choose whether you can drag to open on touch screens,
+      onOpen: function(el) { }, // A function to be called when sideNav is opened
+      onClose: function(el) { }, // A function to be called when sideNav is closed
+    });
+  </script>
+<!--Initialisations end-->
+
+<body>
+<!--Sidebar begins-->
+<ul id="slide-out" class="sidenav">
+    <li><a class="waves-effect" href="innovations.html">Innovation</a></li>
+	<li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="multimedia.html">Multimedia</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="team.html">Team</a></li>
+	<li><div class="divider"></div></li>
+	<li><a class="waves-effect" href="open_knowledge.html">Open Knowledge</a></li>
+	<li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="#join_us">Join Us</a></li>
+	<li><div class="divider"></div></li>
+  </ul>
+  <a href="#sidenav" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+<!--Sidebar ends--> 
+
+<!--Navbar begins-->
+<div class="navbar-fixed">
+	<nav class="black">
+		<div class="nav-wrapper">
+			  <ul class="right hide-on-med-and-down">
+				<li><a class="white-text" href="Website-main.html">HOME</a></li>
+				<li><a class="white-text" href="innovations.html">INNOVATIONS</a></li>
+				<li><a class="white-text" href="multimedia.html">MULTIMEDIA</a></li>
+				<li><a class="white-text" href="open_knowledge.html">OPEN KNOWLEDGE</a></li>
+				<li><a class="white-text" href="team.html">TEAM</a></li>
+			  </ul>
+		</div>
+	</nav>
+</div>
+<!--Navbar end-->`
+<br>
+<form>
+    <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+    </div>
+</form>
+
+
+</body>
+</html>
